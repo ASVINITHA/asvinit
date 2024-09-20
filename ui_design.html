@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Modern Business - Start Bootstrap Template</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+    <!-- Bootstrap icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Bootstrap icons-->
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<style>
+    /* Container for the cards */
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px; /* Adjust the gap between cards */
+    }
+
+    /* Individual card styles */
+    .card2 {
+        flex-basis: calc(33.333% - 10px); /* 33.333% width with a consistent gap */
+        background-color: #fff;
+        box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        height: 100px;  
+       
+        transition: transform 0.3s ease; /* Add a smooth transition for the transform property */
+    }
+
+    .card:hover {
+        transform: scale(1.05); /* Increase the scale to zoom in slightly */
+    }
+
+    /* Text content styles */
+    .text-content {
+        flex: 1;
+    }
+
+    /* Round image container styles */
+    .round-image-container {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px; /* Moved to the right side */
+        border-radius: 50%;
+    }
+
+    /* Round image styles with different background colors */
+    .round-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Icon styles */
+    .round-image i {
+        font-size: 24px; /* Adjust the size of the icon */
+        color: #fff; /* Icon color */
+    }
+    .card {
+        transition: transform 0.3s ease;
+            position: relative;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the entire card */
+        }
+
+        .card-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            color: white;
+            padding: 10px;
+            width: 100%;
+        }
+</style>
+<body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Asvinitha M.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ui_design.html">UI Designs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <section class="py-5">
+            <div class="container px-5 mb-5">
+               
+                <div class="card-container2">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-20 col-xxl-8">
+                            <div class="row">
+                                <div class="text-center mb-4">
+                                    <h4 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">Design Elegance</span></h4>
+                                  <br>
+                                    <p style="font-size: 13px; margin-bottom: 0;">Crafted a comprehensive UI for my original application, drawing inspiration from my own creativity and references</p>
+                                </div>
+                    
+                                <div class="col-md-4 mb-5">
+                                    <a href="uncle_biryani.php" style="text-decoration: none; color: inherit;"> <!-- Replace 'your_target_page_url.html' with the actual URL of the page you want to link to -->
+                              
+                                        <div class="card">
+                                            <img class="card-image" src="assets/uncle_biryani/Frame 21.jpg" alt="Image">
+                                            <div class="card-text">
+                                                Uncle's Biryani (UI)
+                                            </div>
+                                            </div>
+                                    </a>
+                                </div>
+
+                    <div class="col-md-4 mb-5">
+                        <a href="design_2.php" style="text-decoration: none; color: inherit;"> <!-- Replace 'your_target_page_url.html' with the actual URL of the page you want to link to -->
+                  
+                            <div class="card">
+                                <img class="card-image" src="assets/authentication_pic/Frame 22.jpg" alt="Image">
+                                <div class="card-text">
+                                    Secure Auth (UI)
+                                </div>
+                                </div>
+                        </a>
+                    </div>
+                 
+                    </div>
+                    </div>
+                    <div class="col-lg-11 col-xl-20 col-xxl-8">
+                   
+
+<div class="row">
+    <div class="text-center mb-3">
+        <h4 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">Design Exploration</span></h4>
+        <br>
+        <p style="font-size: 13px; margin-bottom: 0;">Design exploration focuses on creating unique mockups and custom designs</p>
+    </div>
+    <div class="col-md-4 mb-5">
+        <a href="authentication_screen.html" style="text-decoration: none; color: inherit;"> <!-- Replace 'your_target_page_url.html' with the actual URL of the page you want to link to -->
+            <div class="card">
+                <img class="card-image" src="assets/authentication_pic/Frame 23.jpg" alt="Image">
+                <div class="card-text">
+                    Authentication Screen (UI)
+                </div>
+                </div>
+        </a>
+    </div>
+    <div class="col-md-4 mb-5">
+        <a href="onboarding_screen.html" style="text-decoration: none; color: inherit;"> <!-- Replace 'your_target_page_url.html' with the actual URL of the page you want to link to -->
+
+            <div class="card">
+                <img class="card-image" src="assets/onboarding_screen/Frame 24.jpg" alt="Image">
+                <div class="card-text">
+                    Onboarding Screen (UI) 
+                </div>
+                </div>
+        </a>
+    </div>
+    <div class="col-md-4 mb-5">
+        <a href="main_screen.html" style="text-decoration: none; color: inherit;"> <!-- Replace 'your_target_page_url.html' with the actual URL of the page you want to link to -->
+
+            <div class="card">
+                <img class="card-image" src="assets/font_17.png" alt="Image">
+                <div class="card-text">
+                    Homepage / Main Screen (UI)
+                </div>
+                </div>
+        </a>
+    </div>
+   
+    </div>
+    <div class="row">
+        
+        <div class="col-md-4 mb-5">
+            <a href="product_screen.html" style="text-decoration: none; color: inherit;"> <!-- Replace 'your_target_page_url.html' with the actual URL of the page you want to link to -->
+                <div class="card">
+                    <img class="card-image" src="assets/burger/Frame 25.jpg" alt="Image">
+                    <div class="card-text">
+                        Product Screen (UI)
+                    </div>
+                    </div>
+            </a>
+        </div>
+        <div class="col-md-4 mb-5">
+            <a href="analysis_screen.html" style="text-decoration: none; color: inherit;"> <!-- Replace 'your_target_page_url.html' with the actual URL of the page you want to link to -->
+    
+                <div class="card">
+                    <img class="card-image" src="assets/analysis/Frame 25.jpg" alt="Image">
+                    <div class="card-text">
+                        Analysis Screen (UI)
+                    </div>
+                    </div>
+            </a>
+        </div>
+        <div class="col-md-4 mb-5">
+            <a href="splash_screen.html" style="text-decoration: none; color: inherit;"> <!-- Replace 'your_target_page_url.html' with the actual URL of the page you want to link to -->
+    
+                <div class="card">
+                    <img class="card-image" src="assets/Frame 26.png" alt="Image">
+                    <div class="card-text">
+                        Splash Screen (UI)
+                    </div>
+                    </div>
+            </a>
+        </div>
+       
+        </div>
+             
+                </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+    
+    </main>
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <center><div class="col-auto"><div class="small m-0">Copyright &copy; My Portfolio - Asvinitha 2023</div></div></center>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
